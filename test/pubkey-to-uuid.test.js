@@ -1,5 +1,5 @@
 const assert = require('assert');
-const pubkeyToUuid = require('../pubkey-to-uuid');
+const pubkeyToUuid = require('../src/pubkey-to-uuid');
 
 describe("Pubkey to UUID", () => {
     const privateKey = "20c9d0dce464a26463561875ff46d4b792cadee0221a5eecb8c6a4838ba96965";
